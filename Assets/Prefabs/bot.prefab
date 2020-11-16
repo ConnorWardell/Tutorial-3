@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 202278279}
   - component: {fileID: 1020268311573256899}
   - component: {fileID: 2676556763787896167}
+  - component: {fileID: 4061643740189190695}
   m_Layer: 0
   m_Name: bot
   m_TagString: Untagged
@@ -142,7 +143,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3193322258479087582}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ccf40fb31fe2a64a96ad286bca5a22f, type: 3}
   m_Name: 
@@ -266,6 +267,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4061643740189190695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3193322258479087582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 727f6848b5c1a4b40aef593d1d280c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  vertical: 0
+  changeTime: 3
+  smokeEffect: {fileID: 6902089534237203035}
 --- !u!1001 &4490596495966327222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -333,6 +350,12 @@ PrefabInstance:
       propertyPath: moveWithTransform
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7032626335869144045, guid: 418b833b0b8938548ba496ae61db322f,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 664059343884491645, guid: 650693376df53a045a10d664311bfb34,
+        type: 3}
     - target: {fileID: 9218448936489759998, guid: 418b833b0b8938548ba496ae61db322f,
         type: 3}
       propertyPath: m_Name
